@@ -48,11 +48,11 @@ However, one has to be careful about how the data is processed to not give false
 ##### After I try with : GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
  <img src = "Image/forest_02_GC_100_10.png" width = "400" height = "400">
 
-##### After I try with : GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
+##### After I try with : GridSearchCV _ param_grid = {'n_estimators': [350, 400, 450], 'max_features': ['auto', 'sqrt', 'log2'}
       
 <img src = "Image/forest_03_GC_350_20.png" width = "400" height = "400">
   
-##### After I try with : GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
+##### After I try with : GridSearchCV _ param_grid = {'n_estimators': [500, 550, 600], 'max_features': ['auto', 'sqrt', 'log2'}
       
  <img src = "Image/forest_04_GC_600_20.png" width = "400" height = "400">
     
