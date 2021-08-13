@@ -1,5 +1,5 @@
 #  Model evaluation challenge - US Income
-![Dollar Bundles (Image)](assets/us-dollar-bundles.jpg)
+![Dollar Bundles (Image)](Image/us-dollar-bundles.jpg)
 
 ## Mission
 One evening, while you were minding your own business watching the latest show on Netflix, you get an e-mail from a stock broker à la *Wolf of Wall Street*... the type of guy that only cares about sex, drugs and money.
@@ -45,20 +45,20 @@ However, one has to be careful about how the data is processed to not give false
 
 
   
-   <img src = "plots/a1y_medianVSa2y_median_elbow.png" width = "500" height = "400">
+   <img src = "Image/forest_01.png" width = "500" height = "400">
 
  ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
       
  
-    <img src = "plots/4features.png" width = "450" height = "600">
+    <img src = "Image/forest_02_GC_100_10.png" width = "450" height = "600">
 
  ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
       
-     <img src = "plots/4features.png" width = "450" height = "600">
+     <img src = "Image/forest_03_GC_350_20.png" width = "450" height = "600">
   
  ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
       
-     <img src = "plots/4features.png" width = "450" height = "600">
+     <img src = "Image/forest_04_GC_600_20.png" width = "450" height = "600">
     
  #### Results of Kmeans corresponding with 2, 3, 4, 5 ,6 -features: 
     Best silhouette scores for n features (KMeans++) using all the dataset
