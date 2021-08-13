@@ -45,19 +45,19 @@ However, one has to be careful about how the data is processed to not give false
 
 
   
- <img src = "Image/forest_01.png" width = "300" height = "400">
+ <img src = "Image/forest_01.png" width = "300" height = "300">
 
 ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
        
-<img src = "Image/forest_02_GC_100_10.png" width = "300" height = "400">
+<img src = "Image/forest_02_GC_100_10.png" width = "300" height = "300">
 
 ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
       
-<img src = "Image/forest_03_GC_350_20.png" width = "450" height = "600">
+<img src = "Image/forest_03_GC_350_20.png" width = "300" height = "300">
   
 ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
       
- <img src = "Image/forest_04_GC_600_20.png" width = "450" height = "600">
+ <img src = "Image/forest_04_GC_600_20.png" width = "300" height = "300">
     
 #### Results of Kmeans corresponding with 2, 3, 4, 5 ,6 -features: 
     Best silhouette scores for n features (KMeans++) using all the dataset
