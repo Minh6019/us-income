@@ -41,22 +41,22 @@ However, one has to be careful about how the data is processed to not give false
  - The data is clean to use for the model
 
 #### RandomForestClassifier:
-+ **n_estimators=100**
+##### n_estimators=100:
 
 
   
    <img src = "plots/a1y_medianVSa2y_median_elbow.png" width = "500" height = "400">
 
- + **GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
+ ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'}
       
  
     <img src = "plots/4features.png" width = "450" height = "600">
 
- +  **GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
+ ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'}
       
      <img src = "plots/4features.png" width = "450" height = "600">
   
-  +  **GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
+ ##### GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'}
       
      <img src = "plots/4features.png" width = "450" height = "600">
     
@@ -76,4 +76,4 @@ However, one has to be careful about how the data is processed to not give false
 
 
 # Timeline: 
-13/08/2021 - 13/08/2021
+13/08/2021 - 16/08/2021
