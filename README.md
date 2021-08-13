@@ -30,8 +30,8 @@ However, one has to be careful about how the data is processed to not give false
 - Some type of validation strategy
 
 ##### Datasets: 
-   - bearing_signals.csv. Contains train data.
-   - bearing_classes.csv. Contains test data.
+   - data_train.csv. Contains train data.
+   - data_test.csv. Contains test data.
 
 ### Author:
 * Hoang Minh (Minh6019)
@@ -47,19 +47,16 @@ However, one has to be careful about how the data is processed to not give false
   
    <img src = "plots/a1y_medianVSa2y_median_elbow.png" width = "500" height = "400">
 
- + **GridSearchCV
-      param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
+ + **GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
       
  
     <img src = "plots/4features.png" width = "450" height = "600">
 
- +  **GridSearchCV
-      param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
+ +  **GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
       
      <img src = "plots/4features.png" width = "450" height = "600">
   
-  +  **GridSearchCV
-      param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
+  +  **GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300],'max_features': ['auto', 'sqrt', 'log2'} **
       
      <img src = "plots/4features.png" width = "450" height = "600">
     
