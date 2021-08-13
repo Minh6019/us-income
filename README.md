@@ -38,7 +38,7 @@ However, one has to be careful about how the data is processed to not give false
 
 ### Step 1: Data preprocessing
 
- - The data is clean to use for the model
+ - The data is cleaned to use for the model
 
 #### RandomForestClassifier:
 ##### I begin with: n_estimators=100:
