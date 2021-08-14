@@ -38,11 +38,11 @@ However, one has to be careful about how the data is processed to not give false
 
 ### Step 1: Data preprocessing
 
- - The data is cleaned but "X_test" is too big. I reorganise to have "80/20" for "X_trai/Xtest".
+ - The data is cleaned but "X_test" is too big. I reorganise to have "80/20" for "X_train/Xtest".
 
 #### RandomForestClassifier:
 ##### I begin with: n_estimators=100:
- + when "y=1" : the recall is not so high (0.593)
+ + when "y=1" : the recall is not so high (0.621)
  <img src = "Image/RFR_100_10.png" width = "400" height = "400">
 
 ##### After I try with : GridSearchCV _ param_grid = {'n_estimators': [100, 200, 300], 'max_features': ['auto', 'sqrt', 'log2'}
@@ -57,7 +57,7 @@ However, one has to be careful about how the data is processed to not give false
  <img src = "Image/CV_600_20.png" width = "400" height = "400">
     
 ### Conclusion 
-  + when **'n_estimators'** goes up, the **'recal'** goes up too but it stabilise at 'n_estimators'=600.
+  + when **'n_estimators'** goes up, the **'recal'** goes up too but it stabilise at 'n_estimators'=350.
   + **roc_auc_ovr** scoring stabilise at **Kfold =10**
  
 # Timeline: 
